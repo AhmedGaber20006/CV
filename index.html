@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahmed Gaber - CV</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+            background-image: url('your-background-image-link.jpg'); /* إضافة خلفية */
+            background-size: cover;
+            background-position: center;
+        }
+        header {
+            background-color: #0073e6;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .profile-pic {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin: 20px auto;
+            display: block;
+        }
+        section {
+            max-width: 800px;
+            margin: 20px auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            text-align: center;
+        }
+        a {
+            color: #0073e6;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        /* تصغير اللوجوهات إلى 50% */
+        .logos img {
+            width: 50%;  /* تصغير العرض إلى 50% */
+            height: 50%; /* تصغير الارتفاع إلى 50% */
+            margin: 10px;
+            max-width: 150px; /* تعيين الحد الأقصى لعرض اللوجو */
+        }
+
+        /* جعل الموقع ديناميكي */
+        @media (max-width: 768px) {
+            .profile-pic {
+                width: 120px;
+                height: 120px;
+            }
+            section {
+                margin: 10px;
+                padding: 15px;
+            }
+            .logos img {
+                width: 40%;  /* تصغير اللوجو أكثر في الشاشات الصغيرة */
+                height: 40%;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .profile-pic {
+                width: 100px;
+                height: 100px;
+            }
+            section {
+                padding: 10px;
+            }
+            .logos img {
+                width: 30%;  /* تصغير اللوجو أكثر في الشاشات الصغيرة جدًا */
+                height: 30%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Ahmed Gaber</h1>
+        <p>Graphic Designer | Content Creator</p>
+    </header>
+    <img src="IMG-20241020-WA0032.jpg" alt="Ahmed Gaber" class="profile-pic">
+    
+    <section>
+        <h2>About Me</h2>
+        <p>Hello! I am Ahmed Gaber, a student at the Faculty of Computer Science, Ain Shams University. I am passionate about graphic design and content creation. Through my work, I aim to combine creativity and technology to deliver impactful designs and engaging content.</p>
+    </section>
+    <section>
+        <h2>Skills</h2>
+        <ul>
+            <li>Graphic Design</li>
+            <li>Content Creation</li>
+            <li>Web Development Basics</li>
+            <li>Creative Problem Solving</li>
+        </ul>
+    </section>
+    <section>
+        <h2>My Work</h2>
+        <p>Check out my YouTube channel for creative and educational content:</p>
+        <p><a href="https://www.youtube.com/@afhamhasah" target="_blank">@afhamhasah</a></p>
+    </section>
+
+    <!-- إضافة اللوجوهات تحت قسم "My Work" -->
+    <div class="logos" style="text-align: center;">
+        <img src="alan.jpg" alt="Logo Alan">
+        <img src="alan2.jpg" alt="Logo Alan2">
+    </div>
+
+    <!-- إضافة قسم "Contact" -->
+    <section>
+        <h2>Contact</h2>
+        <p>If you'd like to get in touch with me, you can reach me at:</p>
+        <p><strong>Phone: 01508917802</strong></p>
+    </section>
+
+    <footer>
+        <p style="text-align: center;">&copy; 2024 Ahmed Gaber. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
